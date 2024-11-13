@@ -1,0 +1,227 @@
+.navbar {
+    background-color: #44bdec; /* Warna biru muda */
+    padding: 20px; /* Ruang di sekitar teks */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+.navbar h1 {
+    margin: 0; /* Menghilangkan margin default dari h1 */
+    font-size: 2em; /* Ukuran font untuk h1 */
+    color: #fff; /* Warna teks putih */
+}
+body {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font yang baru ditambahkan */
+    line-height: 1.6; /* Meningkatkan jarak antar baris */
+    color: #333; /* Mengatur warna teks */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font yang sama untuk heading */
+    font-weight: 700; /* Mengatur font menjadi bold untuk heading */
+    color: #2c3e50; /* Warna heading yang lebih gelap */
+}
+
+.profile-info p {
+    font-size: 1.1em; /* Ukuran font yang sedikit lebih besar untuk paragraf */
+}
+
+.label {
+    font-weight: bold; /* Menebalkan label */
+    color: #2980b9; /* Warna label yang menarik */
+}
+
+.value {
+    color: #303435; /* Warna yang lebih lembut untuk nilai */
+}
+.container {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(108, 213, 245, 0.1);
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #777;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    padding: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 40px; /* Mengatur jarak antara ikon menjadi 20px */
+    justify-content: center; /* Mengatur ikon agar berada di tengah */
+    margin-top: 20px; /* Jarak atas untuk ikon sosial */
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #201e1e;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+.section-wrapper {
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: space-between; /* Memisahkan kedua bagian */
+    margin: 20px; /* Margin di sekitar wrapper */
+}
+
+.section {
+    flex: 1; /* Membuat kedua bagian memiliki ukuran yang sama */
+    margin: 10px; /* Ruang di antara kedua bagian */
+    padding: 20px; /* Padding di dalam setiap bagian */
+    background-color: #f9f9f9; /* Warna latar belakang untuk kedua bagian */
+    border-radius: 5px; /* Sudut membulat */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+.about-me, .contact-info {
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang untuk kedua bagian */
+    border-radius: 5px; /* Sudut membulat */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+.info-list {
+    list-style-type: none; /* Menghapus bullet points */
+    padding: 0; /* Menghapus padding default */
+    margin: 0; /* Menghapus margin default */
+}
+.info-list li {
+    display: flex; /* Menggunakan Flexbox untuk sejajarkan */
+    justify-content: space-between; /* Memisahkan label dan nilai */
+    padding: 5px 0; /* Ruang di antara setiap item */
+}
+
+.label {
+    flex: 0 0 100px; /* Lebar tetap untuk label */
+    font-weight: bold; /* Menebalkan teks label */
+}
+
+.value {
+    flex: 1; /* Nilai akan mengisi ruang yang tersisa */
+}
+
+.info-list li:last-child {
+    border-bottom: none; /* Menghapus garis bawah pada item terakhir */
+}
+a {
+    text-decoration: none; /* Menghilangkan garis bawah dari tautan */
+    color: inherit; /* Menggunakan warna teks yang sama dengan teks di sekitarnya */
+}
+
+a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat tautan dihover untuk efek visual */
+    color: #2980b9; /* Warna saat hover, bisa disesuaikan */
+}
+
+
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 1.5em; /* Ukuran font lebih kecil untuk navbar */
+    }
+
+    .container {
+        padding: 10px; /* Padding lebih kecil untuk konten */
+    }
+
+    .profile-image {
+        width: 150px; /* Ukuran gambar profil lebih kecil */
+        height: 150px; /* Ukuran gambar profil lebih kecil */
+    }
+
+    .profile-info p {
+        font-size: 14px; /* Ukuran font lebih kecil untuk informasi profil */
+    }
+
+    .social-icons {
+        gap: 10px; /* Jarak antar ikon lebih kecil */
+    }
+
+    .social-icons a {
+        font-size: 20px; /* Ukuran ikon lebih kecil */
+    }
+}
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Memungkinkan elemen untuk membungkus */
+}
+
+.section {
+    flex: 1; /* Membuat kedua bagian memiliki ukuran yang sama */
+    margin: 10px; /* Ruang di antara kedua bagian */
+    padding: 20px; /* Padding di dalam setiap bagian */
+    background-color: #f9f9f9; /* Warna latar belakang untuk kedua bagian */
+    border-radius: 5px; /* Sudut membulat */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Media Queries untuk perangkat kecil */
+@media (max-width: 768px) {
+    .section-wrapper {
+        flex-direction: column; /* Mengubah arah menjadi kolom */
+    }
+
+    .about-me {
+        order: 1; /* Menempatkan About Me di atas */
+    }
+
+    .contact-info {
+        order: 2; /* Menempatkan Contact Information di bawah */
+    }
+
+    .section {
+        margin: 10px 0; /* Mengatur margin untuk jarak antar elemen */
+    }
+
+    .section h2 {
+        font-size: 1.5em; /* Ukuran font lebih kecil untuk heading */
+    }
+
+    .section p {
+        font-size: 14px; /* Ukuran font lebih kecil untuk paragraf */
+        line-height: 1.5; /* Meningkatkan jarak antar baris untuk keterbacaan */
+    }
+}
